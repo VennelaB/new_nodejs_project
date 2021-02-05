@@ -13,7 +13,7 @@ const auth =(req,res,next)=>{
     }
     res.sendStatus(401)
 }
-
+//more users can be added
 const users = [
 {
     "username":"name1",

@@ -52,3 +52,4 @@ app.post('/users',auth,(req,res)=>{
     res.json({'message':'new user created'})
 })
 app.listen(3002,()=>console.log('express server started'))
+//exported as a module
